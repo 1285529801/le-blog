@@ -294,6 +294,11 @@
     "whatwg-mimetype" "^3.0.0"
     "whatwg-url" "^11.0.0"
 
+"dayjs@^1.11.2":
+  "integrity" "sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA=="
+  "resolved" "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.9.tgz"
+  "version" "1.11.9"
+
 "debug@^4.3.2":
   "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
   "resolved" "https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz"
@@ -708,6 +713,16 @@
     "picocolors" "^1.0.0"
     "serve-static" "^1.14.1"
 
+"hexo-theme-aomori@^1.36.0":
+  "integrity" "sha512-O5kPMt/fgabms5Loew1ZJAYkTf5OchpQTjsAyzP/rGXRcrZN59z2t+6Mojv5BPWnZI16D1ilJgsNax3aoMx/Mg=="
+  "resolved" "https://registry.npmmirror.com/hexo-theme-aomori/-/hexo-theme-aomori-1.36.0.tgz"
+  "version" "1.36.0"
+  dependencies:
+    "dayjs" "^1.11.2"
+    "jquery" "^3.6.0"
+    "jquery-viewer" "^1.0.1"
+    "viewerjs" "^1.10.5"
+
 "hexo-theme-landscape@^1.0.0":
   "integrity" "sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A=="
   "resolved" "https://registry.npmmirror.com/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz"
@@ -917,6 +932,16 @@
     "chalk" "^4.0.2"
     "filelist" "^1.0.4"
     "minimatch" "^3.1.2"
+
+"jquery-viewer@^1.0.1":
+  "integrity" "sha512-d7qd/9zKCcsxgKDDt9nC2Jdbr2SdXcJkQVzQDxj/H7ZkXzS+scxt2KxGWQlsBthiRmvv9aCPt7kPnGsFA2ds/Q=="
+  "resolved" "https://registry.npmmirror.com/jquery-viewer/-/jquery-viewer-1.0.1.tgz"
+  "version" "1.0.1"
+
+"jquery@^3.6.0", "jquery@>=1.9.1":
+  "integrity" "sha512-umpJ0/k8X0MvD1ds0P9SfowREz2LenHsQaxSohMZ5OMNEU2r0tf8pdeEFTHMFxWVxKNyU9rTtK3CWzUCTKJUeQ=="
+  "resolved" "https://registry.npmmirror.com/jquery/-/jquery-3.7.0.tgz"
+  "version" "3.7.0"
 
 "js-yaml-js-types@^1.0.0":
   "integrity" "sha512-5tpfyORs8OQ43alNERbWfYRCtWgykvzYgY46fUhrQi2+kS7N0NuuFYLZ/IrfmVm5muLTndeMublgraXiFRjEPw=="
@@ -1498,6 +1523,11 @@
   "integrity" "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg=="
   "resolved" "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
+
+"viewerjs@^1.10.5", "viewerjs@>=1.5.0":
+  "integrity" "sha512-/mnqMIwt5Bi9j59+48OqQtqgOx8oh186Xshdr/dqqBrakMSMlLt/jmeNHBod0PvOkesZf66ivQbWmtWYBlKetg=="
+  "resolved" "https://registry.npmmirror.com/viewerjs/-/viewerjs-1.11.4.tgz"
+  "version" "1.11.4"
 
 "w3c-xmlserializer@^4.0.0":
   "integrity" "sha512-d+BFHzbiCx6zGfz0HyQ6Rg69w9k19nviJspaj4yNscGjrHu94sVP+aRm75yEbCh+r2/yR+7q6hux9LVtbuTGBw=="
